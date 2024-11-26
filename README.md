@@ -1,1 +1,8 @@
-# CMSFiles
+## The process as follows.
+- To generate the data sample, I use [this](https://github.com/aviiacharya/CMSFiles/blob/main/gen_TToHadronic_m172To175_pT100To300_etam2p5To2p5_local.py) script and use [these](https://github.com/aviiacharya/CMSFiles/blob/main/GeneratorInterface/GenFilters/plugins/GenTToHadronicFilter.cc) [2](https://github.com/aviiacharya/CMSFiles/blob/main/GeneratorInterface/Pythia8Interface/plugins/Py8PtGunV3.cc) plugin files as a filter and generator . Respective changes needed as per requirement of your data generation.
+- Next is to take the root file and process them through the [simulation script](https://github.com/aviiacharya/CMSFiles/blob/main/sim_TToHadronic_m170to175_pT100To300_etam2p5To2p5_pythia8.py).
+- Taking this simulated data sets, passing through the [RHAnalyzer](https://github.com/aviiacharya/CMSFiles/blob/main/runRHAnalyzer.py) with proper adjustments to the [config-file](https://github.com/aviiacharya/MLAnalyzer/blob/master/RecHitAnalyzer/python/ConfFile_cfg.py) different functions and plugins will give you the required ntuples.
+- In my code, I have used Gen_list.txt or Sim_list.txt which are the produced root files from generation script or simulation scripts respectively.
+- Once you have the ntuples, you may go ahead to change them to parquet files using [this](https://github.com/aviiacharya/CMSFiles/blob/main/new_convert_jet_tracker.py) file. I have to do modify this file and add an upsample function, which will be done very soon and updated.
+- The next step to train the parquet files for mass regression or you may want to change the parquet files to hdf5 file types for smoother training process.
+
