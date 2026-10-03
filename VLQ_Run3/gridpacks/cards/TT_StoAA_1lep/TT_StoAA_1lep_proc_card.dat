@@ -1,0 +1,8 @@
+import model eVLQS012_v8_4FNS_UFO
+define lx = e- mu- ve vm e+ mu+ ve~ vm~
+define bx = b b~
+define qx = u c d s u~ c~ d~ s~
+define sx = a z w+ w-
+generate p p > tp tp~, ( tp > s0 t, ( s0 > a a ), ( t > lx lx bx ) ), ( tp~ > s0 t~, ( s0 > sx sx ), ( t~ > qx qx bx ) )
+add process p p > tp tp~, ( tp > s0 t, ( s0 > sx sx ), ( t > qx qx bx ) ), ( tp~ > s0 t~, ( s0 > a a ), ( t~ > lx lx bx ) )
+output TT_StoAA_1lep -nojpeg

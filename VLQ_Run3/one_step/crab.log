@@ -1,0 +1,14 @@
+DEBUG 2026-09-22 04:33:45.405 UTC: 	 CRAB Client version: v3.260630
+DEBUG 2026-09-22 04:33:45.406 UTC: 	 Running on: Linux cmslpc321.fnal.gov 5.14.0-687.39.1.el9_8.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Aug 18 06:09:16 EDT 2026 x86_64 x86_64 x86_64 GNU/Linux
+DEBUG 2026-09-22 04:33:45.406 UTC: 	 Not using Singularity
+DEBUG 2026-09-22 04:33:45.406 UTC: 	 Operating System: AlmaLinux 9.8 (Olive Jaguar)
+DEBUG 2026-09-22 04:33:45.406 UTC: 	 Executing command: 'submit'
+DEBUG 2026-09-22 04:33:45.406 UTC: 	 Found CRAB cache file /uscms/home/aacharya/.crab3
+DEBUG 2026-09-22 04:33:45.407 UTC: 	 Will use CRAB plugin PRIVATEMC (i.e. will run an a MC generation job type).
+DEBUG 2026-09-27 05:37:06.707 UTC: 	 CRAB Client version: v3.260630
+DEBUG 2026-09-27 05:37:06.707 UTC: 	 Running on: Linux cmslpc305.fnal.gov 5.14.0-687.39.1.el9_8.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Aug 18 06:09:16 EDT 2026 x86_64 x86_64 x86_64 GNU/Linux
+DEBUG 2026-09-27 05:37:06.707 UTC: 	 Not using Singularity
+DEBUG 2026-09-27 05:37:06.707 UTC: 	 Operating System: AlmaLinux 9.8 (Olive Jaguar)
+DEBUG 2026-09-27 05:37:06.707 UTC: 	 Executing command: 'submit'
+DEBUG 2026-09-27 05:37:06.708 UTC: 	 Found CRAB cache file /uscms/home/aacharya/.crab3
+DEBUG 2026-09-27 05:37:06.718 UTC: 	 Will use CRAB plugin PRIVATEMC (i.e. will run an a MC generation job type).
