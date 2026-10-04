@@ -8,3 +8,4 @@ __pycache__/
 .SCRAM/
 config/
 FrameworkJobReport.xml
+.ipynb_checkpoints/
